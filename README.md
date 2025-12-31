@@ -7,6 +7,18 @@ If you want to check the documentation, please refer to the [original repository
 ## Goal
 Follow the newest version of [google/libphonenumber](https://github.com/google/libphonenumber).
 
+## How to use
+You can use the `npm resolutions` feature to keep the `import IntlTelInput from 'intl-tel-input';` statement still works.
+
+```json
+"resolutions": {
+  "intl-tel-input": "npm:@fuddy-duddy/intl-tel-input@^1.0.1"
+},
+"dependencies": {
+  "intl-tel-input": "npm:@fuddy-duddy/intl-tel-input@^1.0.1"
+}
+```
+
 ## Caveats
 
 <mark>This repo has some submodules.</mark>
