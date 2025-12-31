@@ -1,6 +1,6 @@
 {
-  "name": "intl-tel-input",
-  "version": "17.0.21",
+  "name": "@fuddy-duddy/intl-tel-input",
+  "version": "1.0.0",
   "description": "A JavaScript plugin for entering and validating international telephone numbers",
   "keywords": [
     "international",
@@ -14,10 +14,11 @@
     "flag"
   ],
   "license": "MIT",
-  "author": "Jack O'Connor (http://jackocnr.com)",
+  "author": "fuddy-duddies",
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
+    "@release-it/conventional-changelog": "^6.0.0",
     "babel-eslint": "^9.0.0",
     "custom-event-polyfill": "^1.0.6",
     "es6-promise": "^4.2.5",
@@ -31,6 +32,7 @@
     "grunt-bump": "^0.8.0",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy":"^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-jasmine": "^3.0.0",
@@ -49,11 +51,15 @@
     "load-grunt-config": "^0.19.2",
     "node-sass": "^6.0.1",
     "region-flags": "^1.1.0",
+    "release-it": "^15.11.0",
     "time-grunt": "^1.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackocnr/intl-tel-input.git"
+    "url": "https://github.com/fuddy-duddies/intl-tel-input.git"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "scripts": {
     "test": "grunt travis",
@@ -61,7 +67,9 @@
     "build:js": "grunt js",
     "build:css": "grunt css",
     "build:img": "grunt img",
-    "watch": "grunt watch"
+    "watch": "grunt watch",
+    "release": "release-it --verbose --increment=patch",
+    "dev:install": "yarn install --ignore-engines --registry=https://registry.npmjs.org/"
   },
   "style": "build/css/intlTelInput.css"
 }

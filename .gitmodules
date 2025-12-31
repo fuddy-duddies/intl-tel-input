@@ -1,0 +1,15 @@
+[submodule "google/libphonenumber"]
+	path = google/libphonenumber
+	url = https://github.com/google/libphonenumber
+[submodule "google/closure-library"]
+	path = google/closure-library
+	url = https://github.com/google/closure-library
+[submodule "google/closure-compiler"]
+	path = google/closure-compiler
+	url = https://github.com/google/closure-compiler.git
+[submodule "google/closure-linter"]
+	path = google/closure-linter
+	url = https://github.com/google/closure-linter.git
+[submodule "google/python-gflags"]
+	path = google/python-gflags
+	url = https://github.com/google/python-gflags.git

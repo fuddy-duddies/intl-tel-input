@@ -1,9 +1,8 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   // load all tasks from package.json
   require('load-grunt-config')(grunt);
   require('time-grunt')(grunt);
-
   /**
    * TASKS
    */
@@ -14,7 +13,7 @@ module.exports = function(grunt) {
   // just images
   grunt.registerTask('img', ['responsive_images:retina', 'exec:evenizer', 'responsive_images:regular', 'sprite', 'imagemin']);
   // just javascript (babel must go before we add the wrapper, to keep it's generated methods inside, so not globals)
-  grunt.registerTask('js', ['eslint', 'template:jsAddVersion', 'babel', 'concat', 'uglify', 'replace']);
+  grunt.registerTask('js', ['copy:copyUtilsToGoogle', 'shell:buildUtilsUnderGoogle', 'copy:copyUtilsBackFromGoogle', 'shell:cleanGoogleUtilsBuild', 'eslint', 'template:jsAddVersion', 'babel', 'concat', 'uglify', 'replace']);
 
   // build examples
   grunt.registerTask('examples', ['template']);
