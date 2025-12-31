@@ -4,6 +4,9 @@ This is a mirror repo for IE11-compatibility only, and starts from version [**v1
 
 If you want to check the documentation, please refer to the [original repository](https://github.com/jackocnr/intl-tel-input/tree/v17.0.21).
 
+## Goal
+Follow the newest version of [google/libphonenumber](https://github.com/google/libphonenumber).
+
 ## Caveats
 
 <mark>This repo has some submodules.</mark>
