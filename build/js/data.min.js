@@ -1,5 +1,5 @@
 /*
- * International Telephone Input v1.0.0
+ * International Telephone Input v1.0.1
  * https://github.com/fuddy-duddies/intl-tel-input.git
  * Licensed under the MIT license
  */

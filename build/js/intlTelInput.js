@@ -1,5 +1,5 @@
 /*
- * International Telephone Input v1.0.0
+ * International Telephone Input v1.0.1
  * https://github.com/fuddy-duddies/intl-tel-input.git
  * Licensed under the MIT license
  */
@@ -1344,7 +1344,7 @@
         // default options
         intlTelInputGlobals.defaults = defaults;
         // version
-        intlTelInputGlobals.version = "1.0.0";
+        intlTelInputGlobals.version = "1.0.1";
         // convenience wrapper
         return function(input, options) {
             var iti = new Iti(input, options);
