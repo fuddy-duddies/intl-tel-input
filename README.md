@@ -1,6 +1,6 @@
 # International Telephone Input
 
-This is a mirror repo for IE11-compatibility only, and starts from version [**v17.0.21**](https://github.com/jackocnr/intl-tel-input/tree/v17.0.21) of the original repository, we will republish it as an internal package named `@fuddy-duddy/intl-tel-input`.
+This is a mirror repo for IE11-compatibility only, and starts from version [**v17.0.21**](https://github.com/jackocnr/intl-tel-input/tree/v17.0.21) of the original repository, we will republish it as a new  package named `@fuddy-duddy/intl-tel-input`.
 
 If you want to check the documentation, please refer to the [original repository](https://github.com/jackocnr/intl-tel-input/tree/v17.0.21).
 
@@ -23,7 +23,7 @@ And submodules' versions are:
 
 <mark>Please develop this repo under Windows WSL andwith VSCode devcontainer.</mark>
 
-The package `@fuddy-duddy/intl-tel-input@^1` is for IE 11 support, if you didn't need to support IE, please use the packagewhich is published by the original repository.
+The package `@fuddy-duddy/intl-tel-input@^1` is for IE 11 support, if you didn't need to support IE, please use the packag ewhich is published by the original repository.
 
 ## Contributing
 
