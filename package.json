@@ -64,6 +64,10 @@
   "files": [
     "build/"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "test": "grunt travis",
     "build": "grunt build",
