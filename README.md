@@ -21,9 +21,9 @@ And submodules' versions are:
 - google/python-gflags 3.1.2
 - google/libphonenumber v9.0.21
 
-<mark>Please develop this repo under Windows WSL andwith VSCode devcontainer.</mark>
+<mark>Please develop this repo under Windows WSL and with VSCode devcontainer.</mark>
 
-The package `@fuddy-duddy/intl-tel-input@^1` is for IE 11 support, if you didn't need to support IE, please use the packag ewhich is published by the original repository.
+The package `@fuddy-duddy/intl-tel-input@^1` is for IE 11 support, if you didn't need to support IE, please use the package which is published by the original repository.
 
 ## Contributing
 
