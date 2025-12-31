@@ -62,7 +62,8 @@
     "node": ">=16"
   },
   "files": [
-    "build/"
+    "build/",
+    "index.js"
   ],
   "publishConfig": {
     "access": "public",
