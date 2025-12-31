@@ -14,6 +14,13 @@ Please make sure to clone this repo with `--recurse-submodules` option:
 git clone --recurse-submodules https://github.com/fuddy-duddies/intl-tel-input.git
 ```
 
+And submodules' versions are:
+- google/closure-compiler v20210302
+- google/closure-library v20201006
+- google/closure-linter v2.3.19
+- google/python-gflags 3.1.2
+- google/libphonenumber v9.0.21
+
 <mark>Please develop this repo under Windows WSL andwith VSCode devcontainer.</mark>
 
 The package `@fuddy-duddy/intl-tel-input@^1` is for IE 11 support, if you didn't need to support IE, please use the packagewhich is published by the original repository.
